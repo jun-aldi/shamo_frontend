@@ -64,8 +64,12 @@ class SignInPage extends StatelessWidget {
                     SizedBox(
                       width: 16,
                     ),
+<<<<<<< HEAD
                     Expanded(
                         child: TextFormField(
+=======
+                    Expanded(child: TextFormField(
+>>>>>>> c1d88e5dc766bd7c51ad352256e64127870a0414
                       style: primaryTextStyle,
                       decoration: InputDecoration.collapsed(
                         hintText: 'Your Email Address',
@@ -81,6 +85,7 @@ class SignInPage extends StatelessWidget {
       );
     }
 
+<<<<<<< HEAD
     Widget passwordInput() {
       return Container(
         margin: EdgeInsets.only(top: 20),
@@ -186,6 +191,10 @@ class SignInPage extends StatelessWidget {
     return Scaffold(
         backgroundColor: backgroundColor1,
         resizeToAvoidBottomInset: false,
+=======
+    return Scaffold(
+        backgroundColor: backgroundColor1,
+>>>>>>> c1d88e5dc766bd7c51ad352256e64127870a0414
         body: SafeArea(
           child: Container(
             margin: EdgeInsets.symmetric(
@@ -193,7 +202,11 @@ class SignInPage extends StatelessWidget {
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+<<<<<<< HEAD
               children: [header(), emailInput(), passwordInput(), signInButton(), Spacer(), footer(),],
+=======
+              children: [header(), emailInput()],
+>>>>>>> c1d88e5dc766bd7c51ad352256e64127870a0414
             ),
           ),
         ));
