@@ -1,6 +1,6 @@
 # shamo
 
-A new Flutter project.
+e-commer and chat app
 
 ## Getting Started
 
