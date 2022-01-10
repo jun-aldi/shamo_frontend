@@ -1,6 +1,5 @@
 # shamo
-
-e-commer and chat app
+e-commerce and chat app
 
 ## Getting Started
 
